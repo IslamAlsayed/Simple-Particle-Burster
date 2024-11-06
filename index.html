@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mobile-message">Make wider for animation options.</div>
+
+    <form id="settings" onsubmit="return false">
+      Particles<br />
+      <input type="text" id="inBubblesMin" value="150" />
+      To
+      <input type="text" id="inBubblesMax" value="150" /><br />
+
+      Size<br />
+      <input type="text" id="inSizeMin" value="2" />
+      To
+      <input type="text" id="inSizeMax" value="2" /><br />
+
+      Speed<br />
+      <input type="text" id="inSpeedMin" value="1" />
+      To
+      <input type="text" id="inSpeedMax" value="1" /><br />
+
+      Curve<br />
+      <input type="text" id="inCurveMin" value=".5" />
+      To
+      <input type="text" id="inCurveMax" value=".5" /><br />
+      <input type="checkbox" name="waveX" checked="checked" />Wave X<br />
+      <input type="checkbox" name="waveY" />Wave Y<br />
+      <button id="btnClear">Clear</button>
+      <button id="btnSet">Burst!</button><br />
+      Presets:
+      <button id="preset1">Time Dilation</button>
+      <button id="preset2">Warp Speed</button>
+      <button id="preset3">Kaleider</button>
+      <button id="preset4">Star Dust</button>
+      <button id="preset5">Kaleidonut</button>
+      <button id="preset6">Loading...</button>
+      <button id="preset7">Flower Out</button>
+      <button id="preset8">Flower Out 2</button>
+      <button id="preset0">Default</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
